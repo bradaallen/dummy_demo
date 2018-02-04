@@ -1,0 +1,8 @@
+# Keep data out
+*.csv
+
+# Remove Jupyter checkpoints
+notebooks/.ipynb_checkpoints/*
+
+# Remove python caches
+*.pyc
