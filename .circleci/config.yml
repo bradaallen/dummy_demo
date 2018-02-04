@@ -47,7 +47,7 @@ jobs:
           name: run nosetests
           command: |
             . venv/bin/activate
-            nosetests --with-xunit test/*.py
+            nosetests --with-xunit
 
       - store_artifacts:
           path: test-reports
