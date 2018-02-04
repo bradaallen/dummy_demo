@@ -44,10 +44,10 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: nosetests --with-xunit
+          name: run nosetests
           command: |
             . venv/bin/activate
-            python -m unittest discover
+            nosetests --with-xunit test/*.py
 
       - store_artifacts:
           path: test-reports
