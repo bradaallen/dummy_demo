@@ -4,3 +4,5 @@
 # Remove Jupyter checkpoints
 notebooks/.ipynb_checkpoints/*
 
+# Remove python caches
+*.pyc
