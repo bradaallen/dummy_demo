@@ -44,7 +44,7 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run tests
+          name: nosetests --with-xunit
           command: |
             . venv/bin/activate
             python manage.py test
