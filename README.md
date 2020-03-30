@@ -1,5 +1,5 @@
 # dummy_demo
-for playing around
+Code used for training clients on git flow, using code spikes, and organizing functions under /src.
 
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
 [![CircleCI](https://circleci.com/gh/bradaallen/dummy_demo/tree/master.svg?style=svg)](https://circleci.com/gh/bradaallen/dummy_demo/tree/master)
